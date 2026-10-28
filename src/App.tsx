@@ -17,7 +17,7 @@ export default function App() {
       description: '13 глав в виде графов.',
       bgClass: 'bg-gradient-to-br from-slate-950 to-indigo-950/40',
       borderColor: 'border-indigo-500/20 hover:border-indigo-500 shadow-[0_0_15px_rgba(99,102,241,0.02)] hover:shadow-[0_0_30px_rgba(99,102,241,0.15)]',
-      url: 'https://vercel.app' 
+      url: 'https://stratagem-ts.vercel.app/' 
     },
     {
       id: 'machiavelli',
@@ -26,7 +26,7 @@ export default function App() {
       description: '26 глав в виде графов.',
       bgClass: 'bg-gradient-to-br from-[#0c0205] to-[#2d0510]/20',
       borderColor: 'border-rose-950/60 hover:border-amber-600 shadow-[0_0_15px_rgba(136,19,55,0.02)] hover:shadow-[0_0_30px_rgba(217,119,6,0.15)]',
-      url: 'https://vercel.app' 
+      url: 'https://prince-ts.vercel.app/' 
     }
   ];
 

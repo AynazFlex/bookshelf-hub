@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# 🌌 STRATAGEM.HUB — Цифровая библиотека стратегической мысли
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**STRATAGEM.HUB** — это центральный портал-витрина (Hub-Landing), объединяющий интерактивные цифровые конспекты по фундаментальным трудам мировой стратегии и политической философии. 
 
-Currently, two official plugins are available:
+Проект разработан как единая футуристическая точка входа (Cyber-Shelf) к независимым интерактивным веб-приложениям, визуализирующим трактаты в виде сложных логических графов и причинно-следственных схем.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🗺️ Текущая экосистема библиотеки
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+На данный момент на полку заведены и полностью синхронизированы два масштабных тактических протокола:
 
-## Expanding the Oxlint configuration
+1.  **⚔️ Сунь-Цзы — «Искусство войны» (`stratagem-ts`)**
+    *   *Концепт:* Военно-кибернетический терминал в индиго-изумрудных тонах.
+    *   *Суть:* 13 глав, разложенных на графах. Анализ 5 факторов победы, геометрии пустоты и полноты, а также каскадных шпионских сетей.
+2.  **👑 Никколо Макиавелли — «Государь» (`prince-ts`)**
+    *   *Концепт:* Тайный архив Флорентийской канцелярии в багрово-золотых тонах.
+    *   *Суть:* 26 глав в виде деревьев принятия решений. Анатомия удержания территорий, механика управления страхом и натиск против бурного потока Фортуны.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## 🛠️ Технологический стек Хаба
+
+*   **Фреймворк:** React 19 / 18 + TypeScript
+*   **Стилизация:** Tailwind CSS v4
+*   **Сборщик:** Vite
+*   **Архитектура:** Изолированная витрина ссылок (Hub-Landing approach) с полным сохранением автономности микро-репозиториев.
+
+---
+
+## 📱 Особенности интерфейса
+
+*   **Cyberpunk UI:** Глубокий темный дизайн с неоновой координатной сеткой и интерактивными 3D-карточками книг.
+*   **Mobile-First Скролл:** Продвинутая адаптивная верстка на базе `h-dvh` и изолированной прокрутки (`overflow-y-auto` для контентной зоны). Шапка и подвал хаба намертво зафиксированы на экранах смартфонов, а карточки плавно скроллятся без паразитных сдвигов интерфейса.
+*   **Бесконечное масштабирование:** Архитектура массива данных позволяет добавлять новые книги на полку за 30 секунд без изменения общей разметки приложения.
+
+---
+
+## 🚀 Локальный запуск
+
+```bash
+git clone https://github.com
+cd bookshelf-hub
+npm install
+npm run dev
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
